@@ -1,0 +1,6 @@
+from decouple import config
+
+
+ELASTICSEARCH_HOSTS = config('ELASTICSEARCH_HOSTS', 'elasticsearch')
+ELASTICSEARCH_USERNAME = config('ELASTICSEARCH_USERNAME', 'elastic')
+ELASTICSEARCH_PASSWORD = config('ELASTICSEARCH_PASSWORD', 'changeme')
